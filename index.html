@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photographie du café</title>
+  <link rel="stylesheet" href="style/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet"> 
+</head>
+<body>
+  <header>
+    <h1 id="title">Photographie du café</h1>
+  </header>
+  <main>
+    <div class="box full">
+      <form id="uploadForm"  action="index.php" method ="POST" enctype="multipart/form-data">
+        Select coffee shot to upload:
+        <input type="file" id="pictureFile" multiple="multiple" accept="image/*">
+      </form>
+    </div>
+    <div id="vault" class="box half left-float">
+      <h2>Coffee vault</h2>
+      <form id="radioPictures"></form>
+    </div>
+    <div id="showroom" class="box half right-float">
+      <h2>Showroom</h2>
+      <div id="pictureView"><img id="pictureFrame" src="style/Empty-Vault.jpg"></div>
+    </div>
+  </main>
+
+  <script src="/js/jquery-2.2.2.js" type="text/javascript"></script>
+  <script src="js/ajax.js" type="text/javascript"></script>
+</body>
+</html>

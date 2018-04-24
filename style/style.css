@@ -1,0 +1,81 @@
+body {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background-color: #e7e7e7
+}
+
+header {
+    background-color: #f5f5f5;
+    /*Trick to extend background to edges of browser*/
+    padding: 5% 30% 0;
+    margin: -5% -5% 0;
+}
+
+h1 {
+    font-family: 'Bad Script', 'Segoe Script', 'Apple Chancery', Verdana, cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+h2 {
+    font-family: 'Bad Script', 'Segoe Script', 'Apple Chancery', Verdana, cursive;
+    font-size: 2rem;
+    margin: 0;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    padding: .5rem 2rem;
+}
+
+.box {
+    background-color: #f5f5dc;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 0 0 2px 0 #3a3a3a
+}
+
+.full {
+    width: 96%;
+}
+
+.half {
+    width: 46%;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.uploadConfirmItem {
+    padding: 1rem 0 1rem 0;
+}
+
+.imagePreview {
+    width: 40%;
+    max-height: 350px;
+}
+
+.descriptionForm {
+    width: 45%;
+}
+
+#uploadConfirm {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 30%;
+    background-color: #f5f5dc;
+    box-shadow: 0 0 2px 0 #3a3a3a;
+    padding: 3%;
+}
+
+#pictureFrame {
+    width: 100%;
+}
